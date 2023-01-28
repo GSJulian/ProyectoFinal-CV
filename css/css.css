@@ -14,19 +14,24 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
 }
 
-.contenedor
+.container
 {
     position: relative;
     width: 100%;
     max-width: 1000px;
     min-height: 100px;
-    background-color: rgb(195, 218, 238);
+    background:cornflowerblue;
 }
-.lado-izq{
-
+.container .lado-izq{
+position:relative;
+background:rgb(26, 39, 77);
+padding: 40px;
 }
-.lado-der{
-    
+.container .lado-der{
+position:relative;
+background:#fff;
+padding: 40px;
 }
